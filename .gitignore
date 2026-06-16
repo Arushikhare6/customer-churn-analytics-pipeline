@@ -1,11 +1,22 @@
+# Python cache
 __pycache__/
+*.py[cod]
+
+# Jupyter
 .ipynb_checkpoints/
 
-*.pkl
-*.csv
-*.xlsx
-
+# Virtual environments
 venv/
-.env
+env/
+.venv/
 
+# VS Code
+.vscode/
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
